@@ -1,22 +1,14 @@
+/* ---------- Root Variables ---------- */
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
 }
 
-a {
-    font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
-}
-a:hover {
-    color: #535bf2;
-}
-
+/* ---------- Body ---------- */
 body {
     margin: 0;
     display: flex;
@@ -25,11 +17,24 @@ body {
     min-height: 100vh;
 }
 
+/* ---------- Typography ---------- */
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
 }
 
+/* ---------- Links ---------- */
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+/* ---------- Root Container ---------- */
 #root {
     max-width: 1280px;
     margin: 0 auto;
@@ -37,19 +42,24 @@ h1 {
     text-align: center;
 }
 
+/* ---------- Logo ---------- */
 .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
 }
+
 .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
 }
+
+/* Additional style for .logo.react when hovered */
 .logo.react:hover {
     filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* ---------- Logo Animation ---------- */
 @keyframes logo-spin {
     from {
         transform: rotate(0deg);
@@ -59,6 +69,7 @@ h1 {
     }
 }
 
+/* Apply logo-spin animation if prefers-reduced-motion is not set */
 @media (prefers-reduced-motion: no-preference) {
     .logo {
         animation: logo-spin infinite 20s linear;
