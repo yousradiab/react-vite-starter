@@ -4,8 +4,6 @@ Get started with React in Vite quickly using this starter template. It includes 
 
 A RACE customisation of the original Vite Starter Template available at https://vitejs.dev/guide.
 
-# React with RACE 🚀
-
 ## Quick Start Guide
 
 Get your React project up and running in no time using our lightning-fast Single Page Application starter template!
